@@ -34,7 +34,7 @@ body {
  }
 
  h1 {
-  font-size: 4em;
+  font-size: 3rem;
   margin: 0.8em 0;
   letter-spacing: .3ch;
   line-height: 1.2em;
@@ -42,18 +42,15 @@ body {
 
 h2 {
   margin-top: 1em;
-  font-size: 1.6em;
   line-height: 1.4em;
   letter-spacing: 2px;
 }
 
 h3 {
-  font-size: 1.3em;
   line-height: 2em;
 }
 
 h4 {
-  font-size: 1.5em;
   letter-spacing: 1.1ch;
   line-height: 2em;
 }
@@ -112,6 +109,16 @@ a.right {
   animation-name: slidein;
 }
 
+@media only screen and (max-width: 800px) {
+  .presenter-background {
+    width: 95%;
+    margin: 1em;
+    padding: 4em 0.7em 0.7em 0.7em;
+
+  }
+}
+
+
 .presenter-background button {
   position: absolute;
   top: 1em;
@@ -154,11 +161,3 @@ a.right {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .presenter-background {
-    width: 95%;
-    margin: 1em;
-    padding: 0.7em;
-
-  }
-}
