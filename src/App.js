@@ -14,7 +14,7 @@ function Model({ name, ...props }) {
   const snap = useSnapshot(state)
   // Fetching the GLTF, nodes is a collection of all the meshes
   // It's cached/memoized, it only gets loaded and parsed once
-  const { nodes } = useGLTF('/compressed.glb')
+  const { nodes } = useGLTF('/innovative-lehrformen/compressed.glb')
   // Feed hover state into useCursor, which sets document.body.style.cursor to pointer|auto
   const [hovered, setHovered] = useState(false)
 
