@@ -25,8 +25,6 @@ body,
 
 body {
   font-family: 'Space Mono', monospace;
-  background: linear-gradient(155deg, #ffffff 20%, #a5a3a3);
-  color: #101015;
  }
  
  h1, h2, h3, h4, h5, h6 {
@@ -54,6 +52,11 @@ h4 {
   letter-spacing: 1.1ch;
   line-height: 2em;
 }
+
+.dreidcontainer {
+  background: linear-gradient(155deg, #ffffff 20%, #a5a3a3);
+  color: #101015;
+ }
 
 .overlay {
   padding: 40px;
@@ -118,6 +121,30 @@ a.right {
   }
 }
 
+.presenter-flat-background {
+  background-color: RGB(250, 201, 187);
+  position: absolute; 
+  top: 0;
+  left: 0; 
+  margin: 20px;
+  padding: 2em;
+  width: 70%;
+  height: 90%;
+  overflow-y: scroll;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@media only screen and (max-width: 800px) {
+  .presenter-flat-background {
+    width: 95%;
+    margin: 1em;
+    padding: 4em 0.7em 0.7em 0.7em;
+
+  }
+}
+
+
 
 .presenter-background button {
   position: absolute;
@@ -129,6 +156,7 @@ a.right {
   font-family: 'Space Mono', monospace;
   cursor: pointer;
 }
+
 
 .presenter {
   opacity: 1;
@@ -161,3 +189,63 @@ a.right {
   }
 }
 
+.toggle {
+  margin: 1em;
+}
+
+.flat-content-wrapper {
+  width: 900px;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  left: 350px;
+  transform: scale(0.3);
+  transform-origin: top left;
+}
+
+@media only screen and (max-width: 800px) {
+  .flat-content-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+}
+
+.flat-content-wrapper-2 {
+  width: 900px;
+  height: 100%;
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  transform: scale(0.3);
+  transform-origin: top right;
+}
+
+@media only screen and (max-width: 800px) {
+  .flat-content-wrapper-2 {
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+  }
+}
+
+.flat-content-wrapper-3 {
+  width: 900px;
+  height: 100%;
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  transform: scale(0.3);
+  transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 800px) {
+  .flat-content-wrapper-3 {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+  left: 40px;
+  }
+}
