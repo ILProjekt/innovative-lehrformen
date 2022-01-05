@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/innovative-lehrformen/static/css/main.18cb8ba4.chunk.css",
-    "main.js": "/innovative-lehrformen/static/js/main.2cb5de46.chunk.js",
-    "main.js.map": "/innovative-lehrformen/static/js/main.2cb5de46.chunk.js.map",
+    "main.css": "/innovative-lehrformen/static/css/main.5b84b6b0.chunk.css",
+    "main.js": "/innovative-lehrformen/static/js/main.995a1695.chunk.js",
+    "main.js.map": "/innovative-lehrformen/static/js/main.995a1695.chunk.js.map",
     "runtime-main.js": "/innovative-lehrformen/static/js/runtime-main.d7a98d29.js",
     "runtime-main.js.map": "/innovative-lehrformen/static/js/runtime-main.d7a98d29.js.map",
-    "static/js/2.3f765795.chunk.js": "/innovative-lehrformen/static/js/2.3f765795.chunk.js",
-    "static/js/2.3f765795.chunk.js.map": "/innovative-lehrformen/static/js/2.3f765795.chunk.js.map",
+    "static/js/2.7ee7d228.chunk.js": "/innovative-lehrformen/static/js/2.7ee7d228.chunk.js",
+    "static/js/2.7ee7d228.chunk.js.map": "/innovative-lehrformen/static/js/2.7ee7d228.chunk.js.map",
     "index.html": "/innovative-lehrformen/index.html",
-    "static/css/main.18cb8ba4.chunk.css.map": "/innovative-lehrformen/static/css/main.18cb8ba4.chunk.css.map",
-    "static/js/2.3f765795.chunk.js.LICENSE.txt": "/innovative-lehrformen/static/js/2.3f765795.chunk.js.LICENSE.txt",
+    "static/css/main.5b84b6b0.chunk.css.map": "/innovative-lehrformen/static/css/main.5b84b6b0.chunk.css.map",
+    "static/js/2.7ee7d228.chunk.js.LICENSE.txt": "/innovative-lehrformen/static/js/2.7ee7d228.chunk.js.LICENSE.txt",
     "static/media/ocean.911fee95.png": "/innovative-lehrformen/static/media/ocean.911fee95.png",
     "static/media/octopus.97cc2e6a.png": "/innovative-lehrformen/static/media/octopus.97cc2e6a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d7a98d29.js",
-    "static/js/2.3f765795.chunk.js",
-    "static/css/main.18cb8ba4.chunk.css",
-    "static/js/main.2cb5de46.chunk.js"
+    "static/js/2.7ee7d228.chunk.js",
+    "static/css/main.5b84b6b0.chunk.css",
+    "static/js/main.995a1695.chunk.js"
   ]
 }
